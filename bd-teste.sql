@@ -7,6 +7,8 @@ CREATE TABLE professor (
 
 );
 
+SELECT * FROM professor;
+
 INSERT INTO professor(nome,email) VALUES ('jaquelina', 'jaquelina@gmail.com');
 INSERT INTO professor(nome,email) VALUES ('joana', 'joana@gmail.com');
 
@@ -23,3 +25,5 @@ CREATE TABLE turma (
 
 INSERT INTO turma (nome, id_professor) VALUES ('2DS', '1');
 INSERT INTO turma (nome, id_professor) VALUES ('1DS', '2');
+
+SELECT * FROM turma;
